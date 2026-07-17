@@ -70,10 +70,10 @@ const users = [
 ]
 
 const onlyHigherThan18 = users.filter(users => users.idade > 18)
-console.log(onlyHigherThan18)
+// console.log(onlyHigherThan18)
 
 const oneYearPassed = users.map(users => users.idade + 1)
-console.log(oneYearPassed)
+// console.log(oneYearPassed)
 
 const onlyOneUser = users.find(users => users.id === 1)
-console.log(onlyOneUser)
+// console.log(onlyOneUser)
