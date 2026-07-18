@@ -77,3 +77,12 @@ const oneYearPassed = users.map(users => users.idade + 1)
 
 const onlyOneUser = users.find(users => users.id === 1)
 // console.log(onlyOneUser)
+
+// filter ==================================================
+
+const section = document.querySelector('#section1')
+
+const observer = new IntersectionObserver((entries) => {
+  console.log(entries)
+}, {})
+observer.observe()
