@@ -1,0 +1,21 @@
+{
+  "name": "train-git",
+  "version": "1.0.0",
+  "description": "A repo to train Git on terminal ( Termux )",
+  "main": "script.js",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielsilvestre2/train-git.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/danielsilvestre2/train-git/issues"
+  },
+  "homepage": "https://github.com/danielsilvestre2/train-git#readme"
+}
